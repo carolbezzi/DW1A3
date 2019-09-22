@@ -5,12 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="CSS/reset.css">
         <link rel="stylesheet" href="CSS/site.css">
+        <script src="https://kit.fontawesome.com/382694a6fb.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet"> 
         <title>Eu!</title>
         <link rel="icon" href="IMG/icon.png">
     </head>
     
-    <body>
-        <aside>
+    <body class="grid-container">
+        <aside class="menu">
             <nav>
                 <ul>
                     <li><a class="active" href="index.html">Página inicial</a></li>
@@ -20,32 +23,48 @@
                 </ul>
             </nav>
         </aside>
-        <br>
+        
+        <main>
             <section>
-            <h1>Sobre mim</h1>
-            <p>Eu gosto de gatos. E gosto <strong>muito</strong> de memes de gatos. E de memes, mesmo não sendo sobre gatos. Podem ser de doguinhos também.</p>
-            <p>Eu posso gostar muito de gatos, mas não sou a louca dos gatos.</p>
-            <p>Tenho dois gatos, mas eles estão no RJ. Como eles não podem morar aqui comigo, eles ficam na lá na minha casa, com a minha mãe. </p>
-            <p>Gosto de jogos e filmes também. Em relação à jogos eu gosto bastante de jogos de mundo aberto, jogos de estratégia e de sobrevivência.</p>
-            <p>Não gosto muito de jogos de esporte e FPS, e principalmente, não gosto de jogos online.</p>
-            <p>Gosto de jogar para me distrair, e não pra passar raiva, então jogos online não!</p>
-            <p>Quanto a filmes, eu assisto de tudo, mas não sou super fã de jogos de ação sem sentido. Tipo aqueles que as pessoas só saem atirando em tudo.</p>
-            <br>
+                <h1>Sobre mim</h1>
+                <div class="texto">
+                    <p>Eu gosto de gatos. E gosto <strong>muito</strong> de memes de gatos. E de memes, mesmo não sendo sobre gatos. Podem ser de doguinhos também.</p>
+                    <p>Eu posso gostar muito de gatos, mas não sou a louca dos gatos.</p>
+                    <p>Tenho dois gatos, mas eles estão no RJ. Como eles não podem morar aqui comigo, eles ficam na lá na minha casa, com a minha mãe. </p>
+                    <p>Gosto de jogos e filmes também. Em relação à jogos eu gosto bastante de jogos de mundo aberto, jogos de estratégia e de sobrevivência.</p>
+                    <p>Não gosto muito de jogos de esporte e FPS, e principalmente, não gosto de jogos online.</p>
+                    <p>Gosto de jogar para me distrair, e não pra passar raiva, então jogos online não!</p>
+                    <p>Quanto a filmes, eu assisto de tudo, mas não sou super fã de filmes de ação sem sentido. Tipo aqueles que as pessoas só saem atirando em tudo.</p>
+                    <br>
+                </div>
             </section>
+            
             <section class="centraliza">
-            <h3>Como Trabalho</h3>
-            <p>Sempre vejo vídeos e fotos de gatinhos na internet.</p>
-            <p>A internet é um ótimo lugar para buscar novos memes e, principalmente, memes de gatinhos.</p>
-            <p>Um ótimo lugar pra começar a procurar memes é no <a href="https://www.google.com" target="blanck">Google.</a></p>
-            <br>
-            <p>Um bom exemplo de um meme de gatinho é esse: </p>
-            <img src="IMG/twerking-kitty.gif" alt="Gatinho rebolando">
+                <h3>Como Trabalho</h3>
+                <div class="texto">
+                    <p>Sempre vejo vídeos e fotos de gatinhos na internet.</p>
+                    <p>A internet é um ótimo lugar para buscar novos conteúdos, filmes, seriados, principalmente, memes de gatinhos.</p>
+                    <p>Um ótimo lugar pra começar a procurar memes é no <a class="cor_link" href="https://www.google.com" target="blanck">Google.</a></p>
+                    <br>
+                    <p>Um bom exemplo de um meme de gatinho é esse: </p>
+                    <img src="IMG/twerking-kitty.gif" alt="Gatinho rebolando">
+                </div>
             </section>
-        <br>
+            <br>
+        </main> 
+        
         <footer>
-            <!--@--> &copy; Carol 2019
-        </footer>
-
+            <div class="barra_links">
+                <a class="cor_footer" href="https://www.facebook.com" target="blanck" alt="Link para Facebook" title="Facebook"><i class="fab fa-facebook-f fa-2x" style="margin-right: 0.5em"></i></a>
+                <a class="cor_footer" href="https://www.instagram.com" target="blanck"alt="Link para Instagram" title="Instagram"><i class="fab fa-instagram fa-2x"style="margin-right: 0.5em"></i></a>
+                <a class="cor_footer" href="https://www.twitter.com" target="blanck" alt="Link para Twitter" title="Twitter"><i class="fab fa-twitter fa-2x"style="margin-right: 0.5em"></i></a>
+                <a class="cor_footer" href="https://github.com/carolninda" target="blanck" alt="Link para GitHub" title="GitHub"><i class="fab fa-github-alt fa-2x"style="margin-right: 0.5em"></i></a>
+                <a class="cor_footer" href="https://steamcommunity.com/id/carolninda/" target="blanck"alt="Link para Steam" title="Steam"><i class="fab fa-steam fa-2x"></i></a>
+            </div>
                 
+            <div class="barra_nome">
+                <!--@--> &copy; Carol 2019
+            </div>
+        </footer>           
     </body>
 </html>
