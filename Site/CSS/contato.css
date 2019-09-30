@@ -1,0 +1,53 @@
+input[type=text]{
+    width: 60%;
+    padding: 0.8em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    box-sizing: border-box;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+input[type=email]{
+    width: 60%;
+    padding: 0.8em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    box-sizing: border-box;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+  
+.formulario{
+    padding: 2%;
+    margin-left: 5%;
+    font-family: 'Roboto Slab', serif;
+}
+
+fieldset{
+    padding: 0.2em;
+}
+
+label{
+    display: inline-block;
+    width: 3.8em;
+    font-family: 'Roboto Slab', serif;
+}
+
+.imagem-contato{
+    border-style: solid;
+    border-color: #000000;
+    border-width: 0.18em;
+    float: right;
+    margin-right: 8%;
+}
+
+textarea{
+    font-family: 'Roboto Slab', serif;
+}
+
+input[type=submit]{
+    font-family: 'Roboto Slab', serif;
+}

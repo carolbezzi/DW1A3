@@ -50,11 +50,31 @@ h3{
     width: 100%;
     margin: 0;
 }
+
+h4{
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    padding-top: 0.625em;
+    font-size: 1.3em;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+}
+
+h5{
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    font-size: 1em;
+    
+}
   
 p{
     color: #000000;
     font-family: 'Roboto Slab', serif;
-    font-size: 1.20em;
+    font-size: 1.15em;
     line-height: 1.6em;
     text-align: center;
 }
@@ -138,4 +158,18 @@ footer{
 
 .cor_footer{
     color:#969696;
+}
+
+article{
+    text-align: center;
+}
+
+hr{
+    border: 0;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: 0px;
+    border-top: 1px solid #3c4d5896;
+    margin-left: 20%;
+    margin-right: 20%
 }
