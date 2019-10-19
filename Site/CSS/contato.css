@@ -22,7 +22,6 @@ input[type=email]{
   
 .formulario{
     padding: 2%;
-    margin-left: 5%;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -50,4 +49,17 @@ textarea{
 
 input[type=submit]{
     font-family: 'Roboto Slab', serif;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .imagem-contato{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        width: 80%;
+        float: none;
+    }
+
 }
