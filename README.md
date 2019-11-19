@@ -6,12 +6,12 @@ Ana Carolina Bezzi Paiva de Moraes - SP3017206
 
 Exercícios JavaScript
 
-[Saudação](Atividade JS/saudacao.html)
-[Formulário](Atividade JS/formulario.html)
-[Operações](Atividade JS/operacoes.html)
-[Temperatura](Atividade JS/conversorTemp.html)
-[Combustível](Atividade JS/combustivel.html)
-[IMC](Atividade JS/imc.html)
-[Efeitos Menu](Atividade JS/efeitosMenu.html)
-[Carrossel](Atividade JS/carrossel.html)
+[Saudação](AtividadeJS/saudacao.html)
+[Formulário](AtividadeJS/formulario.html)
+[Operações](AtividadeJS/operacoes.html)
+[Temperatura](AtividadeJS/conversorTemp.html)
+[Combustível](AtividadeJS/combustivel.html)
+[IMC](AtividadeJS/imc.html)
+[Efeitos Menu](AtividadeJS/efeitosMenu.html)
+[Carrossel](AtividadeJS/carrossel.html)
 
