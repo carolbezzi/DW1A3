@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="/CSS/conversorTemp.css">
+
+</head>
+<body>
+
+    <h1>Conversor de Temperatura</h1>
+
+    <div>
+        <p>Temperatura em Celsius</p>
+        <input id="input1" type="text" placeholder="Temperatura"/>
+            
+        <button id="button" type="button" onclick="celsiusTOfah()">Converter</button> <br/>
+    
+        <p id="t1"></p> 
+    </div>
+    <br>    
+    <div>
+        <p>Temperatura em Fahrenheit.</p>
+        <input id="input2" type="text" placeholder="Temperatura"/>
+    
+        <button id="button2" type="button" onclick="fahTOcelsius()">Converter</button> <br/>
+        
+        <p id="t2"></p>
+    </div>
+ 
+    <button id="apagar" onclick="apagar()">Limpar</button>
+    
+</body>
+    <script type="text/javascript" src="/JS/conversorTemp.js"></script>
+</html>

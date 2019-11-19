@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Operações</title>
+    <link rel="stylesheet" href="/CSS/operacoes.css">
+
+</head>
+<body>
+
+    <table id="operacoes">
+        <thead>
+            <tr>
+                <th colspan="4" class="head">Operações</th>
+            </tr>
+        </thead>        
+        <tr class="titulo">
+            <td>Primeiro número</td>
+            <td>Segundo número</td>
+            <td>Operação realizada</td>
+            <td>Resultado</td>
+
+        </tr>
+        <tr>
+            <td rowspan="5"><input type="text" id="n1" value=""/></td>
+            <td rowspan="5"><input type="text" id="n2" value=""/></td>
+            <td>Soma</td>
+            <td id="soma"></td>
+
+        </tr>
+
+        <tr>
+            <td>Subtração</td>
+            <td id="subtracao"></td>
+                   
+        </tr>
+
+        <tr>
+            <td>Multiplicação</td>
+            <td id="produto"></td>                   
+        </tr>
+
+        <tr>
+            <td>Divisão</td>
+            <td id="divisao"></td>                    
+        </tr>
+
+        <tr>
+            <td>Resto</td>
+            <td id="resto"></td>            
+        </tr>        
+
+    </table>
+    
+    <br>    
+    
+    <button id="calcular" onclick="calculo()">Calcular</button>
+    <button id="apagar" onclick="apagar()">Limpar</button>
+
+        
+</body>
+    <script type="text/javascript" src="/JS/operacoes.js"></script>
+</html>
