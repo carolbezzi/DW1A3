@@ -7,11 +7,18 @@ Ana Carolina Bezzi Paiva de Moraes - SP3017206
 Exercícios JavaScript
 
 [Saudação](AtividadeJS/saudacao.html)
+
 [Formulário](AtividadeJS/formulario.html)
+
 [Operações](AtividadeJS/operacoes.html)
+
 [Temperatura](AtividadeJS/conversorTemp.html)
+
 [Combustível](AtividadeJS/combustivel.html)
+
 [IMC](AtividadeJS/imc.html)
+
 [Efeitos Menu](AtividadeJS/efeitosMenu.html)
+
 [Carrossel](AtividadeJS/carrossel.html)
 
