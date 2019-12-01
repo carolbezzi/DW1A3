@@ -12,6 +12,8 @@ Exercícios JavaScript
 
 [Operações](AtividadeJS/operacoes.html)
 
+[Frases da Sorte](AtividadeJS/frasesdasorte.html)
+
 [Temperatura](AtividadeJS/conversorTemp.html)
 
 [Combustível](AtividadeJS/combustivel.html)
@@ -21,4 +23,5 @@ Exercícios JavaScript
 [Efeitos Menu](AtividadeJS/efeitosMenu.html)
 
 [Carrossel](AtividadeJS/carrossel.html)
+
 
