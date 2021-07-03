@@ -1,7 +1,25 @@
 # DW1A3
-Programação dinâmica para Web
+Desenvolvimento Web I
+Ana Carolina Bezzi Paiva de Moraes - SP3017206
 
-Atividades
+[Site](Site/index.html)
 
-[MMC e MDC](Atividade1/mmcemdc.html)
+Exercícios JavaScript
 
+[Saudação](AtividadeJS/saudacao.html)
+
+[Formulário](AtividadeJS/formulario.html)
+
+[Operações](AtividadeJS/operacoes.html)
+
+[Frases da Sorte](AtividadeJS/frasesdasorte.html)
+
+[Temperatura](AtividadeJS/conversorTemp.html)
+
+[Combustível](AtividadeJS/combustivel.html)
+
+[IMC](AtividadeJS/imc.html)
+
+[Efeitos Menu](AtividadeJS/efeitosMenu.html)
+
+[Carrossel](AtividadeJS/carrossel.html)
